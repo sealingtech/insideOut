@@ -1,10 +1,10 @@
 #Define the website that is hosting category test pages
 $testSite="http://testrating.webfilter.bluecoat.com/"
 
-$Define the string that determines whether the category test page was returned
+#Define the string that determines whether the category test page was returned
 $pattern="This is a Symantec WebFilter test rating page categorized as"
 
-$Place the list of categories into an array - note that this will be used to generate the URI to the test page. If you switch test sites, this will definitely break if they use a different URL path. 
+#Place the list of categories into an array - note that this will be used to generate the URI to the test page. If you switch test sites, this will definitely break if they use a different URL path. 
 $categories = @" 
 Abortion
 Adult/Mature Content
